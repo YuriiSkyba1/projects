@@ -1,0 +1,527 @@
+body {
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+footer {
+  background-color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.main_wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/*top_menu*/
+.first_section {
+  background-color: #212121;
+}
+
+.top_header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-bottom: 1.5px solid grey;
+  padding: 10px 0;
+}
+
+.sup_items {
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: #ff3448;
+  -ms-flex-align: baseline;
+  padding-left: 10px;
+}
+
+.sup_items:hover {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.sub_header-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.my_account, .my_cart, .my_checkout {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+}
+
+.bottom_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.list_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tel_number {
+  padding-left: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 40px;
+}
+
+.medium_items {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+.item-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-left: 1.5px solid grey;
+  padding: 10px;
+}
+
+.item-wrapper:first-child {
+  padding-left: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-left: none;
+}
+
+/*bottom_menu*/
+.second_section {
+  padding: 25px 0px 15px 0px;
+  background-color: #030303;
+}
+
+.menu_items {
+  padding-left: 40px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__item {
+  color: #ffffff !important;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+/*banner   */
+.car {
+  width: 100%;
+  height: auto;
+}
+
+/*main part 4 cards*/
+.headlights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: row;
+      -ms-flex-pack: row;
+          justify-content: row;
+}
+
+.headlights_first {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 50px 0px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: justify;
+  background-color: #303030;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headlights_second {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 50px 0px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: justify;
+  background-color: #000000;
+}
+
+.first_part {
+  padding-bottom: 50px;
+}
+
+.first-part-img {
+  width: 100%;
+}
+
+.second-part-img {
+  width: 100%;
+}
+
+.title_headlights {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+}
+
+.pagaraf_headlights {
+  color: #979696;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/*middle_wrapper*/
+.middle_wrapper {
+  padding: 85px 0px 120px 0px;
+}
+
+.product_title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+}
+
+.line {
+  border-width: 0;
+  width: 172px;
+  height: 6px;
+  background-color: #9c1c28;
+}
+
+.featured_wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.product_headlights {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.car_accses {
+  margin-right: 30px;
+  width: 260px;
+  background-color: #363636;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 0px 20px 0px;
+}
+
+.car_accses:last-child {
+  margin-right: 0px;
+}
+
+.featured_title {
+  color: #ff3448;
+  font-family: "Lato - Heavy";
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.85px;
+}
+
+.price_title {
+  color: #ffffff;
+  font-family: "Lato - Heavy";
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.71px;
+}
+
+/*offer*/
+.offer {
+  margin-bottom: 50px;
+}
+
+.offer_wrapper {
+  background-image: url(/test/assets/photo_2020-03-09_13-55-29.png);
+  max-width: 1285px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buy {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.off {
+  color: #ffffff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+}
+
+.order {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.85px;
+}
+
+.valid {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  padding: 10px;
+}
+
+.buy_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 190px;
+  height: 38px;
+  border-radius: 19px;
+  background-color: #9c1c28;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/*footer*/
+.footer_wrapper {
+  margin: 0 auto;
+  max-width: 1325px;
+}
+
+.car_accses_img {
+  height: 80%;
+}
+
+.footer_top_content {
+  max-width: 170px;
+}
+
+.footer_top_content_last {
+  max-width: 342px;
+}
+
+.footer_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.quick_links {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+}
+
+.quick_items {
+  color: #ff3448;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+}
+
+.quick_line {
+  padding-bottom: 2%;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  width: 89px;
+  border-top: 6px solid #9c1c28;
+}
+
+.submit_button {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  width: 100px;
+  height: 15px;
+  border-radius: 19px;
+  background-color: #9c1c28;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.newsletter_item {
+  color: #887979;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+}
+
+.footer_input {
+  border-width: 0px;
+  width: 342px;
+  height: 37px;
+  background-color: #282828;
+}
+
+.bottom {
+  border-top: 1.5px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.CarStore {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px;
+  padding: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Lato - Regular";
+  font-weight: 400;
+  letter-spacing: 0.75px;
+}
+/*# sourceMappingURL=style.css.map */
